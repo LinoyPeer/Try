@@ -28,15 +28,15 @@ p {
         "Inter";
     padding: 15px;
     font-size: 20px;
-    width: 50%;
+    width: 20vw;
+    height: 5vh;
     margin-bottom: 10px;
 }
 
 #btn,
 #clearBtn {
     font-family: IBM Plex Sans Hebrew;
-    padding: 15px 30px;
-    font-size: 21px;
+    font-size: 15px;
     background-color: rgba(128, 21, 128, 0.712);
     color: white;
     border: none;
@@ -44,6 +44,8 @@ p {
     margin-right: 20px;
     border-radius: 10%;
     transition: all 0.7s ease-out;
+    width: 6vw;
+    height: 5vh;
 }
 
 #btn:hover,
@@ -53,7 +55,7 @@ p {
 
 #result {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 23px;
     font-family: IBM Plex Sans Hebrew;
 }
 
@@ -62,15 +64,15 @@ p {
         "Inter";
     padding: 15px;
     font-size: 20px;
-    width: 50%;
+    width: 20vw;
+    height: 5vh;
     margin-bottom: 10px;
 }
 
 #btn1,
 #clearBtn1 {
     font-family: IBM Plex Sans Hebrew;
-    padding: 15px 30px;
-    font-size: 21px;
+    font-size: 15px;
     background-color: rgba(128, 21, 128, 0.712);
     color: white;
     border: none;
@@ -78,6 +80,8 @@ p {
     margin-right: 20px;
     border-radius: 10%;
     transition: all 0.7s ease-out;
+    width: 6vw;
+    height: 5vh;
 }
 
 #btn1:hover,
@@ -87,7 +91,7 @@ p {
 
 #result1 {
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 23px;
     font-family: IBM Plex Sans Hebrew;
 }
 
@@ -107,8 +111,8 @@ p {
 }
 
 input[type="checkbox"] {
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     margin-left: 16px;
     font-size: 40px;
 }
@@ -145,6 +149,7 @@ input[type="checkbox"] {
 
 .container {
     font-size: 40px;
+    color: rgba(128, 21, 128, 0.919);
 }
 
 .container1 {
@@ -166,7 +171,7 @@ input[type="checkbox"] {
     }
 
     #textInput {
-        width: 80vw;
+        width: 60vw;
         height: 5vh;
         border: #000 dotted 2px;
     }
@@ -196,14 +201,13 @@ input[type="checkbox"] {
     #btn,
     #clearBtn {
         width: 30vw;
-        height: 5vh;
+        height: 4vh;
         font-size: 15px;
         font-weight: 500;
-        padding: 10px 15px;
     }
 
     #textInput1 {
-        width: 80vw;
+        width: 60vw;
         height: 5vh;
         border: #000 dotted 2px;
     }
@@ -216,10 +220,9 @@ input[type="checkbox"] {
     #btn1,
     #clearBtn1 {
         width: 30vw;
-        height: 5vh;
+        height: 4vh;
         font-size: 15px;
         font-weight: 500;
-        padding: 10px 15px;
         text-align: center;
     }
 }

@@ -42,6 +42,7 @@ function loadResult() {
         trashIcon.className = "fa";
         trashIcon.innerHTML = "&#xf014";
         flexElement.appendChild(trashIcon);
+        trashIcon.style.marginRight = "20px";
 
         trashIcon.addEventListener('click', () => {
             const indexToDelete = getData.findIndex(deletedItem => deletedItem.text === item.text);
@@ -120,6 +121,8 @@ function loadResult1() {
         const trashIcon1 = document.createElement('i');
         trashIcon1.className = "fa";
         trashIcon1.innerHTML = "&#xf014";
+        trashIcon1.style.marginRight = "20px";
+
         flexElement1.appendChild(trashIcon1);
 
         trashIcon1.addEventListener('click', () => {
