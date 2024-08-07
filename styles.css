@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: aliceblue;
+    background: url("cycle.png") no-repeat fixed center;
 }
 
 body {
